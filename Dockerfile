@@ -1,7 +1,7 @@
-FROM buildpack-deps:buster
+FROM buildpack-deps:bullseye
 LABEL maintainer="Ryan Schlesinger <ryan@outstand.com>"
 
-ENV WATCHMAN_VERSION v2020.09.21.00
+ENV WATCHMAN_VERSION v2022.07.04.00
 
 RUN mkdir -p /tmp/build && \
     cd /tmp/build && \
